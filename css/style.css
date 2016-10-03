@@ -1,0 +1,240 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Kumar+One|Open+Sans|Oxygen|Roboto|Source+Code+Pro';
+body
+{
+    font-size: 16px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111d2b; 
+}
+.hideOverflow
+{
+    overflow: hidden;
+}
+header
+{
+    margin-bottom: 300px;
+}
+h1
+{
+    margin: 0;
+}
+p a
+{
+    color: inherit;
+}
+.welcomeMsg
+{
+    position: absolute;
+    z-index: 90;
+    
+    top: 50%;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: -175px; 
+    font-size: 3.75em;
+    width: 750px;
+    color: white;
+    font-family: 'Source Code Pro' ,'Kumar One', 'Dosis','Oxygen','Open Sans', sans-serif;
+}
+
+.btnNav
+{
+    border: solid 2px white;
+    padding: 3px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.nav
+{
+    position: absolute;
+    z-index: 1000;
+    font-size: 1.31em;
+    right: 50px;
+    top: 20px;
+}
+.content
+{
+    
+    padding: 50px;
+}
+.welcomeMsg p
+{
+    margin: 0;
+}
+
+
+@keyframes coder
+{
+    from { right: -70px;}
+    to { right: 25%;}
+}
+
+.pCredits
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 2px;
+    font-size: 1em;
+    color: white;
+}
+.credits
+{
+    font-weight: bold;
+}
+.nav_child
+{
+    list-style: none;
+}
+.nav_child a
+{
+    border: solid 2px white;
+    background: white;
+    padding: 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111d2b;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+
+
+/* Hide Dropdowns by Default */
+nav ul {
+	display: none;
+	position: relative; 
+    right: -10em;
+}
+	
+/* Display Dropdowns on Hover */
+.with--sidebar ul {
+	display:inherit;
+}
+
+nav div
+{
+    display: inline;
+}
+nav div a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+.imgBackStanding
+{
+    color: white;
+    min-width: 140px;
+    min-height: 440px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    background-image: url(http://66.media.tumblr.com/c95b54835b05ccf714adf0280b6155c2/tumblr_n92lx6L9F51shtnjto1_400.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-right:-70px; 
+    right: 25%;
+    animation-name: coder; 
+    animation-duration: 10s;
+}
+.containerContact
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3em 18.75em;
+}
+.linkContainer
+{
+    width: 200px;
+    height: 500px;
+}
+.roundPlaceholder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    margin-bottom: 25px; 
+}
+.roundIcon
+{
+    margin: auto;
+    color: #111d2b;
+    font-size: 3em;
+}
+.linkContainerText
+{
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+.workList
+{
+    display: flex;
+    padding: 10px;
+    border: white solid 1px;
+    margin: 20px;
+    color: white;
+
+    justify-content: center;
+
+    align-items: center;
+}
+.workListLogo
+{
+    padding: auto;
+}
+
+.workListText
+{
+    padding: 5px;
+    padding-left: 10px;
+    font-size:1.2em;
+}
+.containeWork
+{
+    padding: 3em 18.75em;
+}
+@media screen and (max-width: 1100px)
+{
+    /* Rédigez vos propriétés CSS ici */
+    
+    body
+    {
+        font-size: 10px;
+    }
+    .containerContact
+    {
+        padding: 10px 1em;
+    }
+    .welcomeMsg
+    {
+        width: 450px;
+        margin-left: -225px;
+    }
+    nav ul
+    {
+        right: -12em;
+    }
+}
+
+
+
+
