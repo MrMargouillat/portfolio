@@ -136,19 +136,20 @@ nav div a
 .imgBackStanding
 {
     color: white;
-    min-width: 140px;
-    min-height: 440px;
-    width: auto;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    background-image: url(http://66.media.tumblr.com/c95b54835b05ccf714adf0280b6155c2/tumblr_n92lx6L9F51shtnjto1_400.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    margin-right:-70px; 
-    right: 25%;
-    animation-name: coder; 
-    animation-duration: 10s;
+min-width: 140px;
+min-height: 510px;
+width: auto;
+height: auto;
+position: absolute;
+bottom: 0;
+background-image: url(../img/01-grand.png);
+background-repeat: no-repeat;
+background-size: 140px 510px;
+z-index: 1;
+margin-right: -70px;
+right: 25%;
+animation-name: coder;
+animation-duration: 10s;
 }
 .containerContact
 {
