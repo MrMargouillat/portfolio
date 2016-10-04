@@ -135,7 +135,6 @@ nav div a
 
 .imgBackStanding
 {
-    color: white;
 min-width: 140px;
 min-height: 510px;
 width: auto;
@@ -151,12 +150,42 @@ right: 25%;
 animation-name: coder;
 animation-duration: 10s;
 }
+
+.imgBackComputer
+{
+min-width: 300px;
+min-height: 341px;
+width: auto;
+height: auto;
+position: absolute;
+top: 150px;
+right: 50%;
+background-image: url(../img/01-ordi.png);
+background-repeat: no-repeat;
+background-size: 300px auto;
+z-index: 1;
+margin-right: -150px;
+}
+.placeHolder
+{
+    height: 50px;
+    width: auto;
+    padding-bottom: 200px; 
+}
+.titleContainer
+{
+    color: white;
+    font-size: 2em;
+}
+.container
+{
+    padding: 3em 18.75em;
+}
 .containerContact
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 3em 18.75em;
 }
 .linkContainer
 {
@@ -211,7 +240,7 @@ animation-duration: 10s;
 }
 .containeWork
 {
-    padding: 3em 18.75em;
+    
 }
 @media screen and (max-width: 1100px)
 {
