@@ -91,6 +91,7 @@ p a
 .nav_child
 {
     list-style: none;
+    width: 100px;
 }
 .nav_child a
 {
