@@ -191,9 +191,9 @@ animation-duration: 10s;
     display: flex;
     padding: 10px;
     border: white solid 1px;
+    border-radius: 5px;
     margin: 20px;
     color: white;
-
     justify-content: center;
 
     align-items: center;
