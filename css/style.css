@@ -120,11 +120,14 @@ nav ul {
 	display: none;
 	position: relative; 
     right: -10em;
+    opacity: 0;
+    
 }
 	
 /* Display Dropdowns on Hover */
 .with--sidebar ul {
 	display:inherit;
+    opacity: 1;
 }
 
 nav div
