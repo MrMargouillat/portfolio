@@ -281,6 +281,7 @@ margin-right: -150px;
 .cardWhite
 {
     width: 500px;
+    max-height: 700px;
     margin: auto;
     margin-top: 50px;
     box-shadow: 5px 5px 10px rgba(22, 22, 22, 0.5);
@@ -291,6 +292,7 @@ margin-right: -150px;
 .cardDark
 {
     width: 500px;
+    max-height: 700px;
     margin: auto;
     margin-top: 50px;
     box-shadow: 5px 5px 10px rgba(22, 22, 22, 0.5);
